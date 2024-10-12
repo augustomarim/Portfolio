@@ -124,7 +124,40 @@ footer a img {
     height: 100%;
     width: 40px;
     }
+    @media (min-width: 2440px) {
+        header {
+            padding: 40px;
+            gap: 30px;
+        }
+        header img {
+            width: 300px; 
+        }
+        header h1 {
+            font-size: 3.5rem; 
+        }
+        
+        nav ul li a {
+            font-size: 1.5rem; 
+            padding: 10px 20px;  
+        }
     
+        main {
+            padding: 150px; 
+            gap: 80px; 
+        }
+    
+        main h3 {
+            font-size: 2rem; 
+        }
+    
+        footer {
+            padding: 40px; 
+            gap: 30px; 
+        }
+        footer a img {
+            width: 60px; 
+        }
+    }
     @media (max-width: 768px) {
         header {
             flex-direction: column;
